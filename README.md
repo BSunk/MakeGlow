@@ -18,6 +18,15 @@ Library that adds a glow effect to VectorDrawables or BitmapDrawables
         <attr name="glowOffColor" format="color"/>
         <attr name="blurFilter" format="integer"/>
 
+## Some info
+        The attribute 'drawable' expects the source you want to glow.
+        
+        The attribute 'blurfilter' can be 0,1,2, or 3.
+        0-BlurMaskFilter.Blur.INNER
+        1-BlurMaskFilter.Blur.OUTER
+        2-BlurMaskFilter.Blur.NORMAL
+        3-BlurMaskFilter.Blur.SOLID
+
 License
 -------
 
