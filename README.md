@@ -2,14 +2,20 @@
 Library that adds a glow effect to VectorDrawables or BitmapDrawables
 
 
- <img src="/screenshots/Screenshot_20170301-140437.png" alt="image" width="100">
- <img src="/screenshots/Screenshot_20170301-140444.png" alt="image" width="100">
- <img src="/screenshots/Screenshot_20170301-140454.png" alt="image" width="100">
+ <img src="/screenshots/Screenshot_20170301-140437.png" alt="image" width="300">
+ <img src="/screenshots/Screenshot_20170301-140444.png" alt="image" width="300">
+ <img src="/screenshots/Screenshot_20170301-140454.png" alt="image" width="300">
  
  
 
+## Attributes
 
-
+        <attr name="drawable" format="reference" />
+        <attr name="glowColor" format="color"/>
+        <attr name="glowRadius" format="integer"/>
+        <attr name="glowOff" format="boolean"/>
+        <attr name="glowOffColor" format="color"/>
+        <attr name="blurFilter" format="integer"/>
 
 
 
