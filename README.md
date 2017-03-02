@@ -1,12 +1,13 @@
 # MakeGlow
 Library that adds a glow effect to VectorDrawables or BitmapDrawables
 
+## Add to build.gradle
 
+    compile 'com.bsunk.makeglow:makeglow:1.0.0'
+    
  <img src="/screenshots/Screenshot_20170301-140437.png" alt="image" width="300">
  <img src="/screenshots/Screenshot_20170301-140444.png" alt="image" width="300">
  <img src="/screenshots/Screenshot_20170301-140454.png" alt="image" width="300">
- 
- 
 
 ## Attributes
 
@@ -16,8 +17,6 @@ Library that adds a glow effect to VectorDrawables or BitmapDrawables
         <attr name="glowOff" format="boolean"/>
         <attr name="glowOffColor" format="color"/>
         <attr name="blurFilter" format="integer"/>
-
-
 
 License
 -------
